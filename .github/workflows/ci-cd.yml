@@ -16,10 +16,10 @@ jobs:
           node-version: 20
 
       - name: Instal Dependencies
-        run: npm ci
+        run: npm install
 
       - name: Run ESLint
         run: npm run lint
 
       - name: Run tests
-        run: npm
+        run: npm test
